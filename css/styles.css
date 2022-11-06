@@ -45,7 +45,18 @@ html {
 .w3-display-middle{position:absolute;top:45%;left:35%;transform:translate(-20%,-55%)}
 .w3-xlarge{font-size:24px!important}.w3-xxlarge{font-size:36px!important}.w3-xxxlarge{font-size:48px!important}.w3-jumbo{font-size:64px!important}
 .w3-jumbo2{text-align: center}
+#frase {
+  text-align:center;
+}
 .bottomleft {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  right: 16px;
+  font-size: 18px;
+  text-align: justify;
+}
+#lef {
   position: absolute;
   bottom: 8px;
   left: 16px;
@@ -423,4 +434,10 @@ footer {
   .subtitulos {
       font-size: 2.5rem;
   }
+  #lef {
+    font-size: 3rem;
+}
+#frase {
+  font-size: 3rem;
+}
 }
