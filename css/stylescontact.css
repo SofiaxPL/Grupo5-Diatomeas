@@ -37,9 +37,13 @@ body {
   margin-top: 150px;
   margin-bottom: 150px;
   padding: 20px;
-  box-shadow: 0 0 20px 1px rgba(12, 71, 122, 0.336);
-  background: linear-gradient(to right, #0ee9ef, #edbf65);
-       
+  box-shadow: 0 0 20px 1px rgba(224, 227, 230, 0.336);
+  background-image: radial-gradient(
+    farthest-corner at 40px 40px,
+    #878037 20%,
+    #AFA8A0 80%
+  );
+
 }
 
 .formulario__titulo {
@@ -57,7 +61,7 @@ body {
 }
 .formulario__input{
   padding:14px; 
-  background:rgba(59, 7, 138, 0.1);
+  background:#8780376e;
   border: 1px solid rgba(0, 0, 0, 0.3);
   margin-bottom: 35px;
   outline: none;
@@ -84,7 +88,7 @@ body {
 
 }
 .formulario__submit{
-  background: rgba(94, 74, 119, 0.642);
+  background: #625d25e9;
   padding: 20px 30px;
   cursor: pointer;
   border: none;
